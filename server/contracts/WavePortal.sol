@@ -17,7 +17,8 @@ contract WavePortal {
 
     Wave[] waves;
 
-    constructor() {
+    // Add "payable" to our constructor makes our contract be able to pay people
+    constructor() payable {
         console.log("Yo yo, I'm a contract and I'm smart");
     }
 
